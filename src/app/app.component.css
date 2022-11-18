@@ -1,0 +1,35 @@
+* {
+    box-sizing     : border-box;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+    height         : 100%;
+}
+
+app-nav {
+
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    flex-direction : row;
+}
+
+app-home {
+    margin         : 5em;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 40%;
+    width          : 80%;
+}
+
+app-footer {
+    position        : relative;
+    background-color: #424141;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 100%;
+}
