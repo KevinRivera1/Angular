@@ -1,14 +1,10 @@
-.header {
 
-    display        : flex;
-    justify-content: space-between;
-    align-items    : center;
-    padding        : 30px;
-    margin         : 10px;
-    width          : 100%;
-    height         : 6em;
+header{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto"
 }
-
-img {
-    width: 14em;
+#logo{
+    max-height: 80px;
+    max-width: 80px;
 }
